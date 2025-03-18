@@ -6,7 +6,7 @@ COPY . .
 
 EXPOSE 5244
 
-RUN chmod +x ./alist
+RUN chmod +x ./data/config.json
 
 CMD [ "./alist", "server", "--no-prefix" ]
 
