@@ -2,7 +2,7 @@ FROM xhofe/alist:latest
 
 WORKDIR /opt/alist/
 
-COPY ..
+COPY . .
 
 EXPOSE 5244
 
